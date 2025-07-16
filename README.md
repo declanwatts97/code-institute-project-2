@@ -1,4 +1,4 @@
-# DW Property & Lettings Project 1
+# Visit Iceland Project 2
 
 The link to live project can be found here - title()
 The link to github repository can be found here - title (https://github.com/declanwatts97/code-institute-project-2)
