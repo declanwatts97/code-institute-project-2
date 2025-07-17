@@ -1,0 +1,48 @@
+/* General styles */
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    max-width: 100%;
+    font-family: "Rubik", sans-serif;
+}
+
+
+
+/* Navbar */
+.navbar-brand {
+    margin-left: 50px;   
+}
+
+#navbarSupportedContent {
+    margin-right: 50px;
+}
+
+/* Hero */
+
+.hero-image {
+
+    background-image:url(/assets/images/hero.jpg);
+    height:500px;
+    width:100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-top:55px;
+    
+}
+
+.hero-text {
+    text-align:center ;
+    padding-top: 30px;
+    
+}
+
+/* Media Queries */
+@media (max-width: 1075px) {
+    .hero-image {
+        height:350px;
+    }
+}
