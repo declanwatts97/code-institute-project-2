@@ -65,7 +65,58 @@ body {
 /* Index Info */
 
 
+/* Trivia */
 
+.trivia{
+    background-color: whitesmoke;
+    width:90%;
+    max-width: 750px;
+    margin:100px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.trivia h2 {
+    font-size: 30px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid black;
+}
+
+.quiz {
+    padding: 20px 0;
+}
+
+.quiz h3 {
+    font-size: 20px;
+}
+
+.button {
+    background: white;
+    color: black;
+    width: 100%;
+    border: 1px solid black;
+    margin: 10px 0;
+    padding: 10px;
+    text-align: left;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background: black;
+    color: white;
+}
+
+#next-button {
+    background: grey;
+    color: white;
+    width:150px;
+    padding: 10px;
+    border:0;
+    border-radius: 1px;
+    margin: 15px auto 0;
+    cursor: pointer;
+}
 
 /* Media Queries */
 @media (max-width: 1075px) {
