@@ -8,6 +8,10 @@
     font-family: "Rubik", sans-serif;
 }
 
+body {
+    max-width: fit-content;
+}
+
 
 
 /* Navbar */
@@ -31,18 +35,44 @@
     background-size: cover;
     position: relative;
     margin-top:55px;
-    
 }
 
 .hero-text {
     text-align:center ;
     padding-top: 30px;
-    
+    color:#545e6d;
+    font-size: large;
 }
+
+.hero-text h1 {
+    font-size: 75px;
+}
+
+/* Index Intro */
+
+.intro {
+    padding-top: 25px;
+    padding-left: 25px;
+}
+
+
+
+.iceland-info {
+    padding-top: 25px;
+    padding-left: 25px;
+}
+
+/* Index Info */
+
+
+
 
 /* Media Queries */
 @media (max-width: 1075px) {
     .hero-image {
         height:350px;
+    }
+    .hero-text h1 {
+        font-size: 50px;
     }
 }
