@@ -163,6 +163,7 @@ footer {
 .footer-nav ul li a {
     color: white;
     margin: 10px;
+    padding:15px;
     text-decoration: none;
     opacity: .75;
     font-size: 21px;
@@ -190,15 +191,10 @@ footer {
 }
 @media (max-width:504px) {
 
-    .navbar-brand {
-    margin-left: 25px;   
-}
-}
     
     .footer-nav ul li {
         width:100%;
         text-align: center;
-        margin: 2px;
         font-size: 10;
         
     }
@@ -210,3 +206,4 @@ footer {
         margin-left: 5px;
     }
 
+}
