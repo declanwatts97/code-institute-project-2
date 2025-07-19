@@ -190,24 +190,9 @@ footer {
         font-size: 50px;
     }
 }
-@media (max-width:556px) {
+@media (max-width:560px) {
 
 
-    .footer-nav ul li {
-        width: 75px;
-        max-width: 504px;
-        text-align: left;
-        font-size: 5;
-        padding:0px;
-        margin:0px;
-        
-    }
-    .footer-copyright{
-        width:100%;
-        text-align: center;
-        margin: 10px;
-        font-size: 15px;
-        margin-left: 5px;
-    }
+    
 
 }
