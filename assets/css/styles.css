@@ -189,6 +189,11 @@ footer {
     }
 }
 @media (max-width:504px) {
+
+    .navbar-brand {
+    margin-left: 25px;   
+}
+}
     
     .footer-nav ul li {
         width:100%;
@@ -204,4 +209,4 @@ footer {
         font-size: 15px;
         margin-left: 5px;
     }
-}
+
