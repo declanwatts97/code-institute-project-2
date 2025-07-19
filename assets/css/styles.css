@@ -27,7 +27,7 @@ body {
 
 .hero-image {
 
-    background-image:url(/assets/images/hero-img.jpg);
+    
     height:500px;
     width:100%;
     background-position: center;
@@ -142,7 +142,7 @@ footer {
     text-decoration: none;
     padding: 10px;
     background-color: white;
-    margin: 10px;
+    margin: 14px;
     border-radius: 15%;
 }
 
