@@ -193,8 +193,9 @@ footer {
     .footer-nav ul li {
         width:100%;
         text-align: center;
-        margin: 5px;
+        margin: 2px;
         font-size: 10;
+        
     }
     .footer-copyright{
         width:100%;
