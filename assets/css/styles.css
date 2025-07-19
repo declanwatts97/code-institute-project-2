@@ -183,19 +183,18 @@ footer {
     }
 }
 @media (max-width:504px) {
-    .footer-nav ul {
-        flex-direction: column;
-    }
+    
     .footer-nav ul li {
         width:100%;
         text-align: center;
-        margin: 10px;
+        margin: 5px;
+        font-size: 10;
     }
     .footer-copyright{
         width:100%;
         text-align: center;
         margin: 10px;
-        font-size: 25px;
-        margin-left: 28px;
+        font-size: 15px;
+        margin-left: 5px;
     }
 }
