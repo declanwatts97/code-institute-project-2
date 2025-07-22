@@ -27,7 +27,7 @@ body {
 
 .hero-image {
 
-    background-image:url(/assets/images/hero-img.jpg);
+    background-image:url(../assets/images/hero-img.jpg);
     height:500px;
     width:100%;
     background-position: center;
@@ -40,7 +40,7 @@ body {
 
 .hero-image-2 {
 
-    background-image:url(/assets/images/hero-img-2.jpg);
+    background-image:url(../assets/images/hero-img-2.jpg);
     height:500px;
     width:100%;
     background-position: center;
@@ -51,7 +51,7 @@ body {
 }
 .hero-image-3 {
 
-    background-image:url(/assets/images/hero-img-3.jpg);
+    background-image:url(../assets/images/hero-img-3.jpg);
     height:500px;
     width:100%;
     background-position: center;
