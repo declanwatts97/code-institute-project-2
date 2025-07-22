@@ -248,7 +248,19 @@ footer {
     }
 }
 
+@media (max-width: 767px) {
+
+    .card {
+        margin-left:125px
+    }
+}
+
 @media (max-width: 531px) {
+
+    .navbar-brand {
+    margin-left: 25px;   
+}
+
    #footer-nav ul li a {
     color: white;
     margin: 0px;
@@ -256,5 +268,15 @@ footer {
     text-decoration: none;
     opacity: .75;
     font-size: 20px;
+    }
+
+    .card {
+        margin-left:90px;
+    }
 }
+
+@media (max-width: 460px) {
+    .card {
+        margin-left:50px;
+    }
 }
