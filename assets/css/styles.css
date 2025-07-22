@@ -20,7 +20,7 @@ html, body {
 }
 
 #navbarSupportedContent {
-    margin-right: 75px;
+    margin-right: 20px;
 }
 
 /* Hero */
@@ -231,7 +231,7 @@ footer {
 
 .card {
     margin-bottom: 50px;
-    
+    max-width: 100%;
 }
 
 .container {
@@ -245,6 +245,9 @@ footer {
     }
     .hero-text h1 {
         font-size: 50px;
+    }
+    .card {
+        margin-left:20px;
     }
 }
 
@@ -271,7 +274,7 @@ footer {
     }
 
     .card {
-        margin-left:90px;
+        margin-left:0px;
     }
 }
 
