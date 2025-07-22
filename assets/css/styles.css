@@ -248,3 +248,13 @@ footer {
     }
 }
 
+@media (max-width: 531px) {
+   #footer-nav ul li a {
+    color: white;
+    margin: 0px;
+    padding:5px;
+    text-decoration: none;
+    opacity: .75;
+    font-size: 20px;
+}
+}
