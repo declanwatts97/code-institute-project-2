@@ -4,12 +4,12 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
-    max-width: 100%;
     font-family: "Rubik", sans-serif;
 }
 
-body {
-    max-width: fit-content;
+html, body {
+    overflow-x: hidden;
+    width: 100%;
 }
 
 
@@ -27,7 +27,7 @@ body {
 
 .hero-image {
 
-    background-image:url(../assets/images/hero-img.jpg);
+    background-image:url(/assets/images/hero-img.jpg);
     height:500px;
     width:100%;
     background-position: center;
@@ -40,7 +40,7 @@ body {
 
 .hero-image-2 {
 
-    background-image:url(../assets/images/hero-img-2.jpg);
+    background-image:url(/assets/images/hero-img-2.jpg);
     height:500px;
     width:100%;
     background-position: center;
@@ -51,7 +51,7 @@ body {
 }
 .hero-image-3 {
 
-    background-image:url(../assets/images/hero-img-3.jpg);
+    background-image:url(/assets/images/hero-img-3.jpg);
     height:500px;
     width:100%;
     background-position: center;
@@ -172,11 +172,10 @@ footer {
     margin-top: 25px;
     left: 0;
     bottom: 0;
-    width: 100%;
+    
 }
-#footer-contain {
-    max-width:100%;
-    padding: 10px 10px 10px;
+#footer-container {
+    padding: 10px;
 }
 
 #social-media {
@@ -249,24 +248,3 @@ footer {
     }
 }
 
-@media (max-width:560px) {
-
-.card {
-    margin-bottom: 25px;
-    margin-left:110px;
-}
-.hero-image {
-        height:350px;
-        width:750px;
-    }
-    .hero-text h1 {
-        font-size: 50px;
-    }
-    .hero-text-2 h1 {
-        font-size: 50px;
-    }
-    .hero-text-3 h1 {
-        font-size: 50px;
-    }
-
-}
