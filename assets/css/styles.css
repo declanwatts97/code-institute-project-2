@@ -20,7 +20,7 @@ body {
 }
 
 #navbarSupportedContent {
-    margin-right: 50px;
+    margin-right: 75px;
 }
 
 /* Hero */
@@ -249,17 +249,24 @@ footer {
     }
 }
 
-@media (max-width:772px) {
-    
-}
-
 @media (max-width:560px) {
 
 .card {
     margin-bottom: 25px;
-    margin-left:25px
-    
+    margin-left:110px;
 }
-    
+.hero-image {
+        height:350px;
+        width:750px;
+    }
+    .hero-text h1 {
+        font-size: 50px;
+    }
+    .hero-text-2 h1 {
+        font-size: 50px;
+    }
+    .hero-text-3 h1 {
+        font-size: 50px;
+    }
 
 }
