@@ -274,12 +274,12 @@ footer {
     }
 
     .card {
-        margin-left:0px;
+        margin-left:85px;
     }
 }
 
 @media (max-width: 460px) {
     .card {
-        margin-left:50px;
+        margin-left:35px;
     }
 }
