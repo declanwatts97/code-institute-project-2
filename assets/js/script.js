@@ -5,9 +5,9 @@ const questions = [
     {
         question: "What is the capital of Iceland?",
         answers: [
-            { text: "Reykjavik", correct: true },
-            { text: "Akureyri", correct: false },
             { text: "Keflavik", correct: false },
+            { text: "Akureyri", correct: false },
+            { text: "Reykjavik", correct: true },
             { text: "Hafnarfjordur", correct: false },
         ]
     },
@@ -23,17 +23,17 @@ const questions = [
     {
         question: "Iceland has the world's oldest surviving parliment, when was it established?",
         answers: [
-            { text: "930 AD", correct: true },
+            { text: "1268 AD", correct: false },
             { text: "1564 AD", correct: false },
             { text: "1675 AD", correct: false },
-            { text: "1268 AD", correct: false },
+            { text: "930 AD", correct: true },
         ]
     },
     {
         question: "What is the highest mountain in Iceland?",
         answers: [
-            { text: "Hvannadalshnúkur", correct: true },
             { text: "Snæfell", correct: false },
+            { text: "Hvannadalshnúkur", correct: true },
             { text: "Öræfajökull", correct: false },
             { text: "Tindfjallajökull", correct: false },
         ]
