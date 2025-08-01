@@ -120,8 +120,8 @@ html, body {
     background-color: whitesmoke;
     width:90%;
     max-width: 750px;
-    margin:100px auto 0;
-    border-radius: 10px;
+    margin:50px auto 0;
+    border-radius: 20px;
     padding: 30px;
 }
 
@@ -151,7 +151,7 @@ html, body {
     cursor: pointer;
 }
 
-.button:hover {
+.button:hover:not([disabled]) {
     background: black;
     color: white;
 }
@@ -167,6 +167,19 @@ html, body {
     cursor: pointer;
 }
 
+.correct {
+    background: rgb(82, 174, 82);
+    color: white;
+}
+
+.incorrect {
+    background: rgb(194, 73, 73);
+    color:white;
+}
+
+.fi-is {
+    margin-right: 15px;
+}
 /* Footer */
 
 footer {
