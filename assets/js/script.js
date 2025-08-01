@@ -87,7 +87,7 @@ function resetState() {
     }
 }
 /**
- * Shows whether chosen answer is true or false and adds class based on result
+ * Shows whether chosen answer is true or false and adds class based on result, shows the correct answer if you get it incorrect.
  */
 function selectAnswer(e) {
     const selectedBtn = e.target;
