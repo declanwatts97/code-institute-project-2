@@ -253,6 +253,10 @@ footer {
     max-width: 100%;
 }
 
+gmp-map {
+        height: 100%;
+}
+
 /* Media Queries */
 @media (max-width: 1075px) {
     .hero-image {
