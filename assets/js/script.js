@@ -8,7 +8,7 @@ const questions = [
             { text: "Keflavik", correct: false },
             { text: "Akureyri", correct: false },
             { text: "Reykjavik", correct: true },
-            { text: "Hafnarfjordur", correct: false },
+            { text: "Hafnarfjordur", correct: false }
         ]
     },
     {
@@ -17,7 +17,7 @@ const questions = [
             { text: "Vatnajökull", correct: true },
             { text: "Langjökull", correct: false },
             { text: "Eyjafjallajökull", correct: false },
-            { text: "Mýrdalsjökull", correct: false },
+            { text: "Mýrdalsjökull", correct: false }
         ]
     },
     {
@@ -26,7 +26,7 @@ const questions = [
             { text: "1268 AD", correct: false },
             { text: "1564 AD", correct: false },
             { text: "1675 AD", correct: false },
-            { text: "930 AD", correct: true },
+            { text: "930 AD", correct: true }
         ]
     },
     {
@@ -35,38 +35,32 @@ const questions = [
             { text: "Snæfell", correct: false },
             { text: "Hvannadalshnúkur", correct: true },
             { text: "Öræfajökull", correct: false },
-            { text: "Tindfjallajökull", correct: false },
+            { text: "Tindfjallajökull", correct: false }
         ]
     }
 ];
 
 const questionElement = document.getElementById("question");
-const answerButtons = document.getElementById("answer-buttons");    
+const answerButtons = document.getElementById("answer-buttons");
 const nextButton = document.getElementById("next-button");
 
 let currentQuestionIndex = 0;
 let score = 0;
 
-/**
- * Function to start the quiz
- */
 function startQuiz() {
     currentQuestionIndex = 0;
     score = 0;
     nextButton.innerHTML = "Next";
     showQuestion();
-};
+}
 
-/**
- * Pulls the questions from the array at the top of the file and shows them on the page
- */
 function showQuestion() {
     resetState();
     let currentQuestion = questions[currentQuestionIndex];
     let questionNo = currentQuestionIndex + 1;
     questionElement.innerHTML = questionNo + ". " + currentQuestion.question;
 
-    currentQuestion.answers.forEach(answer => {
+    currentQuestion.answers.forEach((answer) => {
         const button = document.createElement("button");
         button.innerHTML = answer.text;
         button.classList.add("button");
@@ -77,18 +71,13 @@ function showQuestion() {
         button.addEventListener("click", selectAnswer);
     });
 }
-/**
- * Removes placeholder text from the DOM
- */
 function resetState() {
     nextButton.style.display = "none";
     while(answerButtons.firstChild) {
         answerButtons.removeChild(answerButtons.firstChild);
     }
 }
-/**
- * Shows whether chosen answer is true or false and adds class based on result, shows the correct answer if you get it incorrect.
- */
+
 function selectAnswer(e) {
     const selectedBtn = e.target;
     const isCorrect = selectedBtn.dataset.correct === "true";
@@ -98,7 +87,7 @@ function selectAnswer(e) {
     } else {
         selectedBtn.classList.add("incorrect");
     }
-    Array.from(answerButtons.children).forEach(button => {
+    Array.from(answerButtons.children).forEach((button) => {
         if(button.dataset.correct === "true") {
             button.classList.add("correct");
         }

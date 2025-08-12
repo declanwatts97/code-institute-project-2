@@ -1,10 +1,14 @@
 # Visit Iceland Project 2
 
-The link to live project can be found here - title()
+The link to live project can be found here - title(https://declanwatts97.github.io/code-institute-project-2/)
 The link to github repository can be found here - title (https://github.com/declanwatts97/code-institute-project-2)
 
-## Introduction
+### Table of Contents
 
+
+### Introduction
+
+Welcome to Visit Iceland! We are a travel guide for tourists planning a trip to Iceland, and more specifically Reykjavik. Explore our site for some of our best offerings of day trips, night time activities, and some general information about Iceland as a whole. Test your knowledge of Iceland with our short interactive quiz!
 
 
 ## User Experience
@@ -18,7 +22,7 @@ The link to github repository can be found here - title (https://github.com/decl
 
 
 
-## Goals of Site
+## Goals of Site Developers
 
 
 
@@ -33,15 +37,17 @@ The link to github repository can be found here - title (https://github.com/decl
 ### Home Page
 
 
-### Contact us
+### Day Trips
 
 
-### Home 1
+### Night Activities
 
 
 ## Design
 
 ### Colour Scheme
+
+### Font
 
 
 ## Imagery
@@ -51,7 +57,16 @@ The link to github repository can be found here - title (https://github.com/decl
 ## Technologies Used
 
 ### Development Tools
-
+- Github: For hosting code through repositories and deployment.
+- VS Code: Used for writing and testing local code prior to sending to github.
+- HTML5: The standard language of a web page.
+- CSS3: For styling the website.
+- Javascript - For creating the interactive trivia quiz.
+- Bootstrap 5.3: To create responsive design and also some webpage features.
+- Font Awesome: For adding all logos used on page.
+- Favicon.io: For adding the favicon on the title bar of webpage.
+- Flagicons.lipis.dev - For adding the Icelandic flag to the webpage.
+- ChatGPT - filler text for webpages provided by ChatGPT.
 
 ## Deployment
 
@@ -72,18 +87,92 @@ See below step by step instructions for how to deploy to GitHub pages:
 4. After saving, GitHub will deploy your site. Refresh the page and you will see a link under the github pages section, linking you to your deployment.
 
 ## Testing
-### Manual Testing
+
+Testing is extremely important in the development of a website, allowing you to ensure all code is working as it should. The two types of testing available to a developer are manual testing and automated testing. These are both important tools which should be used every step of the way.
+
+### Principles of Automated Testing
+
+Automated testing can provide consistent testing of a websites purpose and output. It is more efficient when it comes to fast and repeatable test scenarios, where a software or program is designed for purpose. It takes away the human element meaning you know what you are getting from it. It will give you a result one way or another based on how it is designed to test. This is more suited to a fast paced development environment where feedback is required more often and high volume checks are needed.
+
+### Principles of Manual Testing
+
+Manual Testing is primarily done to evaluate aspects of design and development which the automated tests may overlook. This includes the user experience, along with responsivity and usability. This is best done to ensure user stories are being followed and the site is fit for purpose. This can require a human element of opinion rather than the output of a designed software which doesn't always see the full picture.
+
+
 ### User Stories Testing
 
 
+### Manual Testing
 
-### User Testing
+1. Navigation - I tested the navigation by clicking on the navbar links to the other two webpages, and the website header to return to the home page. This worked as expected.
+
+2. Footer - I tested the footer by clicking each social media icon and ensuring that these link to the relevant social media page. As the company doesnt have social media yet these just link direct to the webpage of each social media provider.
+
+3. Webpage Responsiveness - Each webpage was tested across multiple screen sizes, to ensure that everything works as it should. I tested this mainly through Chrome's developer tools, as well as my laptop and mobile phone. Screenshots are shown below (Day trips and night activities page using same code so responsiveness is the same):
+
+![alt text](assets/readme-images/laptop-chrome-dev-2.png)
+
+![alt text](assets/readme-images/laptop-chrome-dev.png)
+
+![alt text](assets/readme-images/phone-chrome-dev-2.png)
+
+![alt text](assets/readme-images/phone-chrome-dev.png)
+
+![alt text](assets/readme-images/tablet-chrome-dev-2.png)
+
+![alt text](assets/readme-images/tablet-chrome-dev.png)
+
+4. Trivia Quiz - The trivia quiz was tested on multiple fronts, as described below: 
+ - Questions pulling though to the DOM from Javascript file - this was tested by loading the page and answering though questions to ensure that all the questions are as stated in the JS file.
+
+ - Answers pulling through to the DOM from Javascript file - this was tested by loading the page and answering through the questuibs to ebsyre that the multiple answers are as stated in the JS file.
+
+ - The next question button - This was tested by answering a question and checking the next button appears below the quiz. On clicking this should move onto the next question. Everything worked as designed.
+
+ Screenshot for the above two points below:
+
+ ![alt text](assets/readme-images/quiz-questions-test.png)
+ 
+ - Correct and incorrect answers - This test was to check that the correct answers turned green and the incorrect turned red. To do this I answered my way through the questions twice, getting them all correct and then all incorrect. Everything worked as designed.
+
+ - Showing the correct answer if you get an answer incorrect - This test was to check that if you get a question wrong, the script will show you the correct answer. To test this I checked that each incorrect answer also showed the correct answer. This worked as designed.
+
+ Screenshot for above two points below:
+
+ ![alt text](assets/readme-images/quiz-answers-test.png)
+
+ - Calculating the user score at the end of the quiz - To test this, I just worked my way through multiple times getting different scores and ensuring the number returned at the end was accurate. This worked as designed.
+
+ - Play again button - This test was to ensure that the play again button shows up at the end of the quiz and restarts it from the beginning. This was done by completing the quiz and clicking the button. Everything worked as designed.
+
+ Screenshot for the above two points below:
+
+ ![alt text](assets/readme-images/quiz-score-test.png)
 
 
+5. HTML Validation - I ran my HTML code through the W3C validator service and have provided screenshots below. My original test brought back some changes to be made so I made these and then tested again. The validation with no errors are shown below:
+
+![alt text](assets/readme-images/html-validator-error-1.png)
+
+![alt text](assets/readme-images/html-validator-1.png)
+
+![alt text](assets/readme-images/hmtl-validator-2.png)
+
+![alt text](assets/readme-images/hmtl-validator-3.png)
+
+6. CSS Validation - I ran my CSS code through the W3C CSS validation service and have provided screenshots. My CSS code passed through the valifator with no errors.
+
+![alt text](assets/readme-images/css-validation.png)
+
+7. Javascript Validation - I ran my Javascript code through JS lint and have provided a screenshot below. My code passed through with no major issues on the validator:
+
+![alt text](assets/readme-images/js-lint-validator.png)
 
 ### Testing Summary
 
+As shown in the above breakdown of testing done, the website is fully operational and meets all user story goals, while also being fully responsive across all devices and browsers.
 
+Manual testing was used for the duration of this project. In the future, I will aim to incorporate Automated testing to this project.
 
 ### Browser Compatibility
 
@@ -95,13 +184,17 @@ This website was tested on the below browsers to ensure compatibility:
 
 ## Credits
 ### Content and Inspiration
-
+- Images: images taken from Unsplash free as uploaded by other users.
+- Content: ideas taken from GetYourGuide travel pages.
+- Text content - filler text taken from Chat GPT.
 
 ### Acknowledgements | All code used commented in html docs
-- Bootstrap: for responsive design along with features such as cards and carousels.
-- Font Awesome: for all icons used on the website
-- Code Institute: for ideas and some code learnt in the love running project.
+- Bootstrap: for the navbar along with the cards outlining the different trips on offer.
+- Font Awesome: for all icons used on the website.
+- Code Institute: for ideas, assistance and the LMS, which was referred back to while designing this project.
 - Favicon.io - for the favicon used in browser title.
+- Unsplash - for all images used on the webpage.
+- Flagicons.lipis.dev - for the Iceland flags used throughout the webpage.
 
 ## Contact Information
 - For any queries or feedback, please contact declan.watts97@gmail.com
