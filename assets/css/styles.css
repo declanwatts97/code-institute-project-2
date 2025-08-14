@@ -12,8 +12,6 @@ html, body {
     width: 100%;
 }
 
-
-
 /* Navbar */
 .navbar-brand {
     margin-left: 50px;   
@@ -35,7 +33,6 @@ html, body {
     background-size: cover;
     position: relative;
     margin-top:55px;
-    
 }
 
 .hero-image-2 {
@@ -80,7 +77,6 @@ html, body {
     padding-top: 50px;
     color:#3a6b3c;
     font-size: large;
-
 }
 
 .hero-text h1 {
@@ -103,16 +99,11 @@ html, body {
     padding-right: 15px;
 }
 
-
-
 .iceland-info {
     padding-top: 25px;
     padding-left: 25px;
     padding-right: 15px;
 }
-
-/* Index Info */
-
 
 /* Trivia */
 

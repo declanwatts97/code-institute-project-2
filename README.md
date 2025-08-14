@@ -18,21 +18,21 @@ Welcome to Visit Iceland! We are a travel guide for tourists planning a trip to 
 
 
 ## User Stories
-## Website Visitors
+### Website Visitors
 
 
 
-## Goals of Site Developers
+### Goals of Site Developers
 
 
 
 ## Structure
 
-
+This site has 3 pages and an interactive quiz on the index page.
 
 ### Navbar
 
-
+The navbar has two active links, to the day trips page and the night activities page. The organisation name in the navbar works as the link back to home. The navbar switches to a menu burger icon on smaller screen sizes.
 
 ### Home Page
 
@@ -45,14 +45,26 @@ Welcome to Visit Iceland! We are a travel guide for tourists planning a trip to 
 
 ## Design
 
+### Wireframes
+
+The below wireframes were created at the beginning of the design process, these were to be the layout followed for the creation of the site:
+
 ### Colour Scheme
+
+- The main colour scheme was black for the header and footer, and white for the body of the pages.
+- The main colour scheme for the text of the webpage was green for the headers and black for the body text.
+- These schemes offer contrasting shades so everything stands out in a professional design.
+- The buttons on the navbar are shaded blue on hover, in a contrast to the dark background.
 
 ### Font
 
+- The font used in this project was Rubik, and with sans serif as a backup font. These were taken from Google Fonts and linked in the head of pages.
 
 ## Imagery
 
+All images used on this project were taken from unsplash or GetYourGuide.
 
+Unsplash was used for the hero images and GetYourGuide for the card images.
 
 ## Technologies Used
 
